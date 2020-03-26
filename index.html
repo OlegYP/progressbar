@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice ProgressBar</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <style>
+    .wrapper {
+      width: 70%;
+      margin: 50px auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <h1 class="text-center"> Задание А6.8 Прогрессбар </h1>
+  <BR>
+  <div class="progress" style="height: 100px;" >
+    <div
+      id="my-progress-bar"
+      class="progress-bar bg-success"
+      role="progressbar"
+      style="width: 50%;" >
+      50%
+    </div>
+  </div>
+  <BR>
+ <div class="row mr-0 ml-0">
+          <button id="buttonP1" class="btn btn-info btn-block mt-4"> + 1 %</button>
+ </div>
+  <div class="row mr-0 ml-0">
+          <button id="buttonP3" class="btn btn-info btn-block mt-4"> + 3 % </button>
+ </div>
+  <div class="row mr-0 ml-0">
+          <button id="buttonP7" class="btn btn-info btn-block mt-4"> + 7 % </button>
+ </div>
+
+  <div class="row mr-0 ml-0">
+          <button id="buttonM1" class="btn btn-warning btn-block mt-4"> - 1 %</button>
+ </div>
+  <div class="row mr-0 ml-0">
+          <button id="buttonM3" class="btn btn-warning btn-block mt-4"> - 3 % </button>
+ </div>
+  <div class="row mr-0 ml-0">
+          <button id="buttonM7" class="btn btn-warning btn-block mt-4"> - 7 % </button>
+ </div>
+
+</div>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/progressbar.js"></script>
+</body>
+</html>
